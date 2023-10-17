@@ -1,4 +1,3 @@
-const _ = require("lodash");
 const { groups: langs } = require("../config.js");
 
 function columToKeyMapper(range, keysColumn) {
@@ -48,7 +47,9 @@ function groupData(dataArray) {
   const resultArray = [];
 
   const flatData = dataArray.flatMap((item) => Object.values(item));
-  const groups = _.uniq(flatData.map((item) => item._group));
+  const groups = flatData
+    .map((item) => item._group)
+    .filter((item, i, arr) => arr.indexOf(item) === i);
 
   for (let i = 0; i < langs.length; i++) {
     const lang = langs[i].toLowerCase();
