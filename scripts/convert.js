@@ -1,12 +1,14 @@
 "use strict";
 const fs = require("fs");
-const { convertExcelToText } = require("./utils");
-const { outputFile } = require("../config.js");
+const { convertSection, groupData, mapSectionToTemplate } = require("./utils");
+const { outputFile, sections } = require("../config.js");
 
 // create text
 
-const text = convertExcelToText();
+const sectionsData = sections.map(convertSection);
+const sectionsDataGrouped = groupData(sectionsData);
+const textOutput = sectionsDataGrouped.map(mapSectionToTemplate).join(" ");
 
 // write file
 
-fs.writeFileSync(outputFile, text, "utf-8");
+fs.writeFileSync(outputFile, textOutput, "utf-8");

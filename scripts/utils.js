@@ -1,10 +1,5 @@
 const excelToJson = require("./convert-excel-to-json");
-const {
-  sourceFile,
-  keysAtColumn,
-  groups: langs,
-  sections,
-} = require("../config.js");
+const { sourceFile, keysAtColumn, groups: langs } = require("../config.js");
 
 function mapColumToKey(range, keysColumn) {
   const alphabet = [
@@ -114,11 +109,4 @@ function mapSectionToTemplate(section) {
   `;
 }
 
-function convertExcelToText() {
-  const dataArray = sections.map(convertSection);
-  const groupedData = groupData(dataArray);
-
-  return groupedData.map(mapSectionToTemplate).join(" ");
-}
-
-module.exports = { convertExcelToText };
+module.exports = { convertSection, groupData, mapSectionToTemplate };
