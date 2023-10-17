@@ -1,3 +1,5 @@
+// extracted from: https://www.npmjs.com/package/convert-excel-to-json
+
 "use strict";
 const XLSX = require("xlsx");
 const extend = require("node.extend");
