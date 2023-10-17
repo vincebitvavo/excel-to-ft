@@ -1,6 +1,6 @@
 {
-    language = "en",
-    prompt = "login",
+    language = "en"
+    prompt = "login"
     body = jsonencode({
 	"login": {
 		"pageTitle": "Log in to Bitvavo",
@@ -43,11 +43,11 @@
 		"no-username": "Please enter a username",
 		"logoAltText": "${companyName}"
 	}
-}),
+})
   },
    {
-    language = "en",
-    prompt = "mfa-otp",
+    language = "en"
+    prompt = "mfa-otp"
     body = jsonencode({
 	"mfa-otp-challenge": {
 		"${clientName}": "Enter the One-Time Password (OTP) code to log in",
@@ -107,11 +107,11 @@
 		"alreadyEnrolledDescription": "Two-Factor Authentication (2FA) already enabled for this account",
 		"genericError": "An unexpected error occurred."
 	}
-}),
+})
   },
    {
-    language = "en",
-    prompt = "signup-password",
+    language = "en"
+    prompt = "signup-password"
     body = jsonencode({
 	"signup-password": {
 		"pageTitle": "Create a password to sign up ${clientName}",
@@ -157,11 +157,11 @@
 		"no-re-enter-password": "Please re-enter new password",
 		"no-username": "Please enter a username"
 	}
-}),
+})
   },
    {
-    language = "en",
-    prompt = "reset-password",
+    language = "en"
+    prompt = "reset-password"
     body = jsonencode({
 	"reset-password": {
 		"pageTitle": "Reset your password ${clientName}",
@@ -226,11 +226,11 @@
 		"resendLinkText": "Resend email",
 		"usernameDescription": "Please check the email address associated with the username <%= \"${email}\" %> for instructions on how to reset your password."
 	}
-}),
+})
   },
    {
-    language = "en",
-    prompt = "mfa-recovery-code",
+    language = "en"
+    prompt = "mfa-recovery-code"
     body = jsonencode({
 	"mfa-recovery-code-enrollment": {
 		"pageTitle": "Make sure you copy your 2FA recovery code and keep it somewhere safe ${clientName}",
@@ -261,11 +261,11 @@
 		"Disable2FA-question": "New phone number?",
 		"Disable2FA-question-cta": "Disable 2FA"
 	}
-}),
+})
   },
    {
-    language = "en",
-    prompt = "mfa",
+    language = "en"
+    prompt = "mfa"
     body = jsonencode({
 	"mfa-login-options": {
 		"pageTitle": "List of alternative login methods ${clientName}",
@@ -282,11 +282,11 @@
 		"authenticatorNamesWebauthnRoaming": "Security Key",
 		"authenticatorNamesWebauthnPlatform": "Fingerprint or Face Recognition"
 	}
-}),
+})
   },
    {
-    language = "nl",
-    prompt = "login",
+    language = "nl"
+    prompt = "login"
     body = jsonencode({
 	"login": {
 		"pageTitle": "Log in bij Bitvavo",
@@ -329,11 +329,11 @@
 		"no-username": "Vul je gebruikersnaam in",
 		"logoAltText": ""
 	}
-}),
+})
   },
    {
-    language = "nl",
-    prompt = "mfa-otp",
+    language = "nl"
+    prompt = "mfa-otp"
     body = jsonencode({
 	"mfa-otp-challenge": {
 		"${clientName}": "Vul het eenmalige wachtwoord in om in te loggen",
@@ -393,11 +393,11 @@
 		"alreadyEnrolledDescription": "Tweefactorauthenticatie (2FA) is al ingeschakeld voor dit account",
 		"genericError": "Er is een onverwachte fout opgetreden."
 	}
-}),
+})
   },
    {
-    language = "nl",
-    prompt = "signup-password",
+    language = "nl"
+    prompt = "signup-password"
     body = jsonencode({
 	"signup-password": {
 		"pageTitle": "Stel een wachtwoord in om je aan te melden ${clientName}",
@@ -443,11 +443,11 @@
 		"no-re-enter-password": "Vul het wachtwoord opnieuw in.",
 		"no-username": "Vul de gebruikersnaam in"
 	}
-}),
+})
   },
    {
-    language = "nl",
-    prompt = "reset-password",
+    language = "nl"
+    prompt = "reset-password"
     body = jsonencode({
 	"reset-password": {
 		"pageTitle": "Reset je wachtwoord ${clientName}",
@@ -512,11 +512,11 @@
 		"resendLinkText": "Stuur de e-mail opnieuw",
 		"usernameDescription": "Controleer het e-mailadres dat verbonden is aan de gebruikersnaam <%= \"${email}\" %>. Hier vind je de instructies voor het resetten van je wachtwoord."
 	}
-}),
+})
   },
    {
-    language = "nl",
-    prompt = "mfa-recovery-code",
+    language = "nl"
+    prompt = "mfa-recovery-code"
     body = jsonencode({
 	"mfa-recovery-code-enrollment": {
 		"pageTitle": "Zorg ervoor dat je de 2FA herstelcode kopieert en op een veilige plek bewaart ${clientName}",
@@ -547,11 +547,11 @@
 		"Disable2FA-question": "Nieuw telefoonnummer?",
 		"Disable2FA-question-cta": "2FA uitschakelen"
 	}
-}),
+})
   },
    {
-    language = "nl",
-    prompt = "mfa",
+    language = "nl"
+    prompt = "mfa"
     body = jsonencode({
 	"mfa-login-options": {
 		"pageTitle": "Lijst met alternatieve inlogmethoden ${clientName}",
@@ -568,11 +568,11 @@
 		"authenticatorNamesWebauthnRoaming": "Veiligheidssleutel",
 		"authenticatorNamesWebauthnPlatform": "Vingerafdruk of gezichtsherkenning"
 	}
-}),
+})
   },
    {
-    language = "de",
-    prompt = "login",
+    language = "de"
+    prompt = "login"
     body = jsonencode({
 	"login": {
 		"pageTitle": "Einloggen bei Bitvavo",
@@ -615,11 +615,11 @@
 		"no-username": "Bitte geben Sie Ihren Benutzernamen ein.",
 		"logoAltText": ""
 	}
-}),
+})
   },
    {
-    language = "de",
-    prompt = "mfa-otp",
+    language = "de"
+    prompt = "mfa-otp"
     body = jsonencode({
 	"mfa-otp-challenge": {
 		"${clientName}": "Geben Sie Ihr Einmalpasswort ein, um sich einzuloggen",
@@ -679,11 +679,11 @@
 		"alreadyEnrolledDescription": "Zwei-Faktor-Authentifizierung (2FA) ist für dieses Konto bereits aktiviert.",
 		"genericError": "Es ist ein unerwarteter Fehler aufgetreten."
 	}
-}),
+})
   },
    {
-    language = "de",
-    prompt = "signup-password",
+    language = "de"
+    prompt = "signup-password"
     body = jsonencode({
 	"signup-password": {
 		"pageTitle": "Erstellen Sie ein Passwort, um sich anzumelden ${clientName}",
@@ -729,11 +729,11 @@
 		"no-re-enter-password": "Geben Sie Ihr Passwort erneut ein.",
 		"no-username": "Geben Sie Ihren Benutzernamen ein"
 	}
-}),
+})
   },
    {
-    language = "de",
-    prompt = "reset-password",
+    language = "de"
+    prompt = "reset-password"
     body = jsonencode({
 	"reset-password": {
 		"pageTitle": "Setzen Sie Ihr Passwort zurück ${clientName}",
@@ -798,11 +798,11 @@
 		"resendLinkText": "E-Mail noch einmal senden",
 		"usernameDescription": "Bitte überprüfen Sie die dem Benutzernamen <%= \"${email}\" %> zugewiesene E-Mail-Adresse, um eine Anleitung zum Zurücksetzen Ihres Passworts zu erhalten."
 	}
-}),
+})
   },
    {
-    language = "de",
-    prompt = "mfa-recovery-code",
+    language = "de"
+    prompt = "mfa-recovery-code"
     body = jsonencode({
 	"mfa-recovery-code-enrollment": {
 		"pageTitle": "Bitte stellen Sie sicher Ihren 2FA-Wiederherstellungscode zu kopieren und sicher aufzubewahren.",
@@ -833,11 +833,11 @@
 		"Disable2FA-question": "Neue Telefonnummer?",
 		"Disable2FA-question-cta": "2FA deaktivieren"
 	}
-}),
+})
   },
    {
-    language = "de",
-    prompt = "mfa",
+    language = "de"
+    prompt = "mfa"
     body = jsonencode({
 	"mfa-login-options": {
 		"pageTitle": "Liste der alternativen Anmeldemethoden ${clientName}",
@@ -854,11 +854,11 @@
 		"authenticatorNamesWebauthnRoaming": "Sicherheitsschlüssel",
 		"authenticatorNamesWebauthnPlatform": "Fingerabdruck oder Gesichtserkennung"
 	}
-}),
+})
   },
    {
-    language = "fr",
-    prompt = "login",
+    language = "fr"
+    prompt = "login"
     body = jsonencode({
 	"login": {
 		"pageTitle": "Connectez-vous à Bitvavo",
@@ -901,11 +901,11 @@
 		"no-username": "Veuillez entrer votre nom d'utilisateur",
 		"logoAltText": ""
 	}
-}),
+})
   },
    {
-    language = "fr",
-    prompt = "mfa-otp",
+    language = "fr"
+    prompt = "mfa-otp"
     body = jsonencode({
 	"mfa-otp-challenge": {
 		"${clientName}": "Entrez le code du mot de passe à usage unique pour vous connecter",
@@ -965,11 +965,11 @@
 		"alreadyEnrolledDescription": "L'authentification à deux facteurs (2FA) est déjà activée pour ce compte.",
 		"genericError": "Une erreur inattendue s'est produite."
 	}
-}),
+})
   },
    {
-    language = "fr",
-    prompt = "signup-password",
+    language = "fr"
+    prompt = "signup-password"
     body = jsonencode({
 	"signup-password": {
 		"pageTitle": "Définir un mot de passe pour s'inscrire à ${clientName}\nCréer un compte pour s'inscrire ${clientName}",
@@ -1015,11 +1015,11 @@
 		"no-re-enter-password": "Veuillez saisir à nouveau le nouveau mot de passe",
 		"no-username": "Veuillez entrer votre nom d'utilisateur"
 	}
-}),
+})
   },
    {
-    language = "fr",
-    prompt = "reset-password",
+    language = "fr"
+    prompt = "reset-password"
     body = jsonencode({
 	"reset-password": {
 		"pageTitle": "Réinitialiser votre mot de passe ${clientName}",
@@ -1084,11 +1084,11 @@
 		"resendLinkText": "Ré-envoyer l'email",
 		"usernameDescription": "Veuillez vérifier l'adresse e-mail associée au nom d'utilisateur <%= \"${email}\" %> pour savoir comment réinitialiser votre mot de passe."
 	}
-}),
+})
   },
    {
-    language = "fr",
-    prompt = "mfa-recovery-code",
+    language = "fr"
+    prompt = "mfa-recovery-code"
     body = jsonencode({
 	"mfa-recovery-code-enrollment": {
 		"pageTitle": "Assurez-vous de copier votre code de récupération 2FA et de le conserver en lieu sûr ${clientName}",
@@ -1119,11 +1119,11 @@
 		"Disable2FA-question": "Nouveau numéro de téléphone ?",
 		"Disable2FA-question-cta": "Désactiver la 2FA"
 	}
-}),
+})
   },
    {
-    language = "fr",
-    prompt = "mfa",
+    language = "fr"
+    prompt = "mfa"
     body = jsonencode({
 	"mfa-login-options": {
 		"pageTitle": "Liste des méthodes de connexion alternatives ${clientName}",
@@ -1140,11 +1140,11 @@
 		"authenticatorNamesWebauthnRoaming": "Clef de sécurité",
 		"authenticatorNamesWebauthnPlatform": "Empreinte digitale ou reconnaissance faciale"
 	}
-}),
+})
   },
    {
-    language = "es",
-    prompt = "login",
+    language = "es"
+    prompt = "login"
     body = jsonencode({
 	"login": {
 		"pageTitle": "Iniciar sesión en Bitvavo",
@@ -1187,11 +1187,11 @@
 		"no-username": "Ingresa un nombre de usuario",
 		"logoAltText": ""
 	}
-}),
+})
   },
    {
-    language = "es",
-    prompt = "mfa-otp",
+    language = "es"
+    prompt = "mfa-otp"
     body = jsonencode({
 	"mfa-otp-challenge": {
 		"${clientName}": "Ingresa la contraseña de un solo uso para conectarte",
@@ -1251,11 +1251,11 @@
 		"alreadyEnrolledDescription": "La autenticación de dos factores (2FA) ya está habilitada para esta cuenta",
 		"genericError": "Ha ocurrido un error inesperado."
 	}
-}),
+})
   },
    {
-    language = "es",
-    prompt = "signup-password",
+    language = "es"
+    prompt = "signup-password"
     body = jsonencode({
 	"signup-password": {
 		"pageTitle": "Crea una contraseña para registrarte ${clientName}",
@@ -1301,11 +1301,11 @@
 		"no-re-enter-password": "Ingresa una nueva contraseña",
 		"no-username": "Ingresa un nombre de usuario"
 	}
-}),
+})
   },
    {
-    language = "es",
-    prompt = "reset-password",
+    language = "es"
+    prompt = "reset-password"
     body = jsonencode({
 	"reset-password": {
 		"pageTitle": "Restablece tu contraseña ${clientName}",
@@ -1370,11 +1370,11 @@
 		"resendLinkText": "Reenviar el correo electrónico",
 		"usernameDescription": "Comprueba la dirección de correo electrónico <%= \"${email}\" %> asociada al nombre de usuario para obtener instrucciones sobre cómo restablecer la contraseña."
 	}
-}),
+})
   },
    {
-    language = "es",
-    prompt = "mfa-recovery-code",
+    language = "es"
+    prompt = "mfa-recovery-code"
     body = jsonencode({
 	"mfa-recovery-code-enrollment": {
 		"pageTitle": "Asegúrate de copiar tu código de recuperación 2FA y guárdalo en un lugar seguro ${clientName}",
@@ -1405,11 +1405,11 @@
 		"Disable2FA-question": "¿Tienes un nuevo número de teléfono?",
 		"Disable2FA-question-cta": "Deshabilitar la 2FA"
 	}
-}),
+})
   },
    {
-    language = "es",
-    prompt = "mfa",
+    language = "es"
+    prompt = "mfa"
     body = jsonencode({
 	"mfa-login-options": {
 		"pageTitle": "Lista de métodos de inicio de sesión alternativos ${clientName}",
@@ -1426,11 +1426,11 @@
 		"authenticatorNamesWebauthnRoaming": "Clave de seguridad",
 		"authenticatorNamesWebauthnPlatform": "Huella dactilar o reconocimiento facial"
 	}
-}),
+})
   },
    {
-    language = "it",
-    prompt = "login",
+    language = "it"
+    prompt = "login"
     body = jsonencode({
 	"login": {
 		"pageTitle": "Accedi a Bitvavo",
@@ -1473,11 +1473,11 @@
 		"no-username": "Inserisci un nome utente.",
 		"logoAltText": ""
 	}
-}),
+})
   },
    {
-    language = "it",
-    prompt = "mfa-otp",
+    language = "it"
+    prompt = "mfa-otp"
     body = jsonencode({
 	"mfa-otp-challenge": {
 		"${clientName}": "Inserisci la tua password monouso per accedere",
@@ -1537,11 +1537,11 @@
 		"alreadyEnrolledDescription": "L'autenticazione 2FA è già abilitata su questo account.",
 		"genericError": "C'è stato un errore."
 	}
-}),
+})
   },
    {
-    language = "it",
-    prompt = "signup-password",
+    language = "it"
+    prompt = "signup-password"
     body = jsonencode({
 	"signup-password": {
 		"pageTitle": "Crea una password per registrarti ${clientName}",
@@ -1587,11 +1587,11 @@
 		"no-re-enter-password": "Si prega di reinserire la password.",
 		"no-username": "Inserisci un nome utente."
 	}
-}),
+})
   },
    {
-    language = "it",
-    prompt = "reset-password",
+    language = "it"
+    prompt = "reset-password"
     body = jsonencode({
 	"reset-password": {
 		"pageTitle": "Resetta la tua password ${clientName}",
@@ -1656,11 +1656,11 @@
 		"resendLinkText": "Invia di nuovo",
 		"usernameDescription": "Si prega di controllare la casella email dell'utente <%= \"${email}\" %> per le istruzioni per ripristinare la password."
 	}
-}),
+})
   },
    {
-    language = "it",
-    prompt = "mfa-recovery-code",
+    language = "it"
+    prompt = "mfa-recovery-code"
     body = jsonencode({
 	"mfa-recovery-code-enrollment": {
 		"pageTitle": "Assicurati di copiare il tuo codice di recupero 2FA e di conservarlo in un posto sicuro ${clientName}",
@@ -1691,11 +1691,11 @@
 		"Disable2FA-question": "Nuovo numero di telefono?",
 		"Disable2FA-question-cta": "Disattiva la 2FA"
 	}
-}),
+})
   },
    {
-    language = "it",
-    prompt = "mfa",
+    language = "it"
+    prompt = "mfa"
     body = jsonencode({
 	"mfa-login-options": {
 		"pageTitle": "Elenco dei metodi di accesso alternativi ${clientName}",
@@ -1712,6 +1712,6 @@
 		"authenticatorNamesWebauthnRoaming": "Chiave di sicurezza",
 		"authenticatorNamesWebauthnPlatform": "Riconoscimento delle impronte digitali o del volto"
 	}
-}),
+})
   },
   

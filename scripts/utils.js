@@ -1,4 +1,10 @@
-const { groups: langs } = require("../config.js");
+const excelToJson = require("./convert-excel-to-json");
+const {
+  sourceFile,
+  keysAtColumn,
+  groups: langs,
+  sections,
+} = require("../config.js");
 
 function columToKeyMapper(range, keysColumn) {
   const alphabet = [
@@ -43,6 +49,23 @@ function columToKeyMapper(range, keysColumn) {
   return columnToKey;
 }
 
+function convertSection({ name, screen, sheet, startFromCell, endAtCell }) {
+  const range = `${startFromCell}:${endAtCell}`;
+  const columnToKey = columToKeyMapper(range, keysAtColumn);
+
+  const result = excelToJson({
+    sourceFile,
+    columnToKey,
+    range,
+    sheets: [sheet],
+    objectName: name,
+    objectScreen: screen,
+    groupsMap: langs,
+  });
+
+  return result;
+}
+
 function groupData(dataArray) {
   const resultArray = [];
 
@@ -75,7 +98,7 @@ function groupData(dataArray) {
   return resultArray;
 }
 
-function mapSectionTemplate(section) {
+function mapSectionToTemplate(section) {
   const jsonContent = JSON.stringify(section._content, null, "\t").replace(
     /\${/g,
     "$${"
@@ -89,15 +112,12 @@ function mapSectionTemplate(section) {
   `;
 }
 
-function convertArrayToText(dataArray) {
-  const resultArray = [];
+function convertExcelToText() {
+  const dataArray = sections.map((section) => convertSection(section));
   const groupedData = groupData(dataArray);
-
-  groupedData.forEach((section) => {
-    resultArray.push(mapSectionTemplate(section));
-  });
+  const resultArray = groupedData.map(mapSectionToTemplate);
 
   return resultArray.join(" ");
 }
 
-module.exports = { columToKeyMapper, convertArrayToText };
+module.exports = { convertExcelToText };
