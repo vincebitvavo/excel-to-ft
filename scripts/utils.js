@@ -1,5 +1,5 @@
 const excelToJson = require("./convert-excel-to-json");
-const { sourceFile, keysAtColumn, groups: langs } = require("../config.js");
+const { sourceFile, keysAtColumn, langs } = require("../config.js");
 
 function mapColumToKey(range, keysColumn) {
   const alphabet = [
@@ -44,7 +44,7 @@ function mapColumToKey(range, keysColumn) {
   return columnToKey;
 }
 
-function convertSection({ name, screen, sheet, startFromCell, endAtCell }) {
+function convertSection({ group, screen, sheet, startFromCell, endAtCell }) {
   const range = `${startFromCell}:${endAtCell}`;
   const columnToKey = mapColumToKey(range, keysAtColumn);
 
@@ -53,7 +53,7 @@ function convertSection({ name, screen, sheet, startFromCell, endAtCell }) {
     columnToKey,
     range,
     sheets: [sheet],
-    objectName: name,
+    objectName: group,
     objectScreen: screen,
     groupsMap: langs,
   });
@@ -95,18 +95,18 @@ function groupData(dataArray) {
   return resultArray;
 }
 
-function mapSectionToTemplate(section) {
-  const jsonContent = JSON.stringify(section._content, null, "\t").replace(
-    /\${/g,
-    "$${"
-  );
+function mapSectionToTemplate({ _lang, _group, _content }) {
+  const jsonContent = JSON.stringify(_content, null, "\t")
+    .replace(/(\\")|(\\")/g, () => "")
+    .replace(/(<%= )|( %>)/g, () => "")
+    .replace(/\${/g, () => "$${");
 
   return `{
-    language = "${section._lang}"
-    prompt = "${section._group}"
-    body = jsonencode(${jsonContent})
-  },
-  `;
+  language = "${_lang}"
+  prompt = "${_group}"
+  body = jsonencode(${jsonContent})
+},
+`;
 }
 
 module.exports = { convertSection, groupData, mapSectionToTemplate };

@@ -1,107 +1,107 @@
 // CONFIG ----------------------------------------------
 
-const sourceFile = "../../downloads/Auth0_ Universal login (frontend) (1).xlsx";
+const sourceFile = "../../downloads/Auth0_ Universal login (frontend) (6).xlsx";
 const outputFile = "./output/result.txt";
 const keysAtColumn = "B";
-const groups = ["EN", "NL", "DE", "FR", "ES", "IT"];
+const langs = ["EN", "NL", "DE", "FR", "ES", "IT"];
 const sections = [
   {
-    name: "login",
+    group: "login",
     screen: "",
     sheet: "UL Login and Create",
     startFromCell: "E4",
-    endAtCell: "J43",
+    endAtCell: "J38",
   },
   {
-    name: "mfa-otp",
+    group: "mfa-otp",
     screen: "mfa-otp-challenge",
     sheet: "UL Login and Create",
-    startFromCell: "E46",
-    endAtCell: "J60",
+    startFromCell: "E43",
+    endAtCell: "J52",
   },
   {
-    name: "signup-password",
+    group: "signup-password",
     screen: "",
     sheet: "UL Login and Create",
-    startFromCell: "E71",
-    endAtCell: "J113",
+    startFromCell: "E67",
+    endAtCell: "J107",
   },
   {
-    name: "mfa-otp",
+    group: "mfa-otp",
     screen: "mfa-otp-enrollment-qr",
     sheet: "Reset PW + 2FA",
     startFromCell: "D4",
     endAtCell: "I17",
   },
   {
-    name: "mfa-otp",
+    group: "mfa-otp",
     screen: "mfa-otp-enrollment-code",
     sheet: "Reset PW + 2FA",
     startFromCell: "D20",
     endAtCell: "I30",
   },
   {
-    name: "mfa-otp",
+    group: "mfa",
     screen: "mfa-enroll-result",
     sheet: "Reset PW + 2FA",
     startFromCell: "D33",
     endAtCell: "I43",
   },
   {
-    name: "reset-password",
+    group: "reset-password",
     screen: "",
     sheet: "Reset PW + 2FA",
     startFromCell: "D45",
     endAtCell: "I57",
   },
   {
-    name: "reset-password",
+    group: "reset-password",
     screen: "reset-password-success",
     sheet: "Reset PW + 2FA",
     startFromCell: "D60",
     endAtCell: "I63",
   },
   {
-    name: "reset-password",
+    group: "reset-password",
     screen: "reset-password-error",
     sheet: "Reset PW + 2FA",
     startFromCell: "D79",
     endAtCell: "I91",
   },
   {
-    name: "reset-password",
+    group: "reset-password",
     screen: "reset-password-request",
     sheet: "Reset PW + 2FA",
     startFromCell: "D100",
     endAtCell: "I118",
   },
   {
-    name: "reset-password",
+    group: "reset-password",
     screen: "reset-password-email",
     sheet: "Reset PW + 2FA",
     startFromCell: "D124",
     endAtCell: "I128",
   },
   {
-    name: "mfa-recovery-code",
+    group: "mfa-recovery-code",
     screen: "mfa-recovery-code-enrollment",
     sheet: "Recovery 2FA",
     startFromCell: "D25",
-    endAtCell: "I36",
+    endAtCell: "I32",
   },
   {
-    name: "mfa-recovery-code",
+    group: "mfa-recovery-code",
     screen: "mfa-recovery-code-challenge",
     sheet: "Recovery 2FA",
     startFromCell: "D42",
-    endAtCell: "I58",
+    endAtCell: "I53",
   },
   {
-    name: "mfa",
+    group: "mfa",
     screen: "mfa-login-options",
     sheet: "Recovery 2FA",
-    startFromCell: "D61",
-    endAtCell: "I73",
+    startFromCell: "D64",
+    endAtCell: "I76",
   },
 ];
 
@@ -111,6 +111,6 @@ module.exports = {
   sourceFile,
   outputFile,
   keysAtColumn,
-  groups,
+  langs,
   sections,
 };

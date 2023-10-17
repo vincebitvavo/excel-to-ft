@@ -1,4 +1,4 @@
-// extracted from: https://www.npmjs.com/package/convert-excel-to-json
+// adapted from: https://www.npmjs.com/package/convert-excel-to-json
 
 "use strict";
 const XLSX = require("xlsx");
@@ -142,7 +142,9 @@ const excelToJson = (function () {
 
       rows.forEach((row) => {
         Object.keys(row).forEach((key) => {
-          result[lang]["_content"][key] = row[key][i] || "";
+          if (key !== undefined && key !== "undefined") {
+            result[lang]["_content"][key] = row[key][i] || "";
+          }
         });
       });
     });
