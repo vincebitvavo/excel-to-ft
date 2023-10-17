@@ -57,12 +57,11 @@ function groupData(dataArray) {
     for (let j = 0; j < groups.length; j++) {
       const group = groups[j];
       const content = {};
-      const subgroups = flatData.filter(
-        (item) => item._group === group && item._lang === lang
-      );
 
-      subgroups.forEach((item) => {
-        content[item._subgroup || item._group] = item._content;
+      flatData.forEach((item) => {
+        if (item._group === group && item._lang === lang) {
+          content[item._subgroup || item._group] = item._content;
+        }
       });
 
       resultArray.push({
@@ -83,9 +82,9 @@ function mapSectionTemplate(section) {
   );
 
   return `{
-    language = "${section._lang}",
-    prompt = "${section._group}",
-    body = jsonencode(${jsonContent}),
+    language = "${section._lang}"
+    prompt = "${section._group}"
+    body = jsonencode(${jsonContent})
   },
   `;
 }
