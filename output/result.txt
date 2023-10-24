@@ -10,12 +10,12 @@
 		"buttonText": "Log in",
 		"federatedConnectionButtonText": "Continue with $${connectionName}",
 		"footerLinkText": "Create account",
-		"signupActionLinkText": "$${footerLinkText}",
+		"signupActionLinkText": "",
 		"footerText": "Don't have an account yet?",
-		"signupActionText": "Aanmelden",
+		"signupActionText": "Sign up",
 		"forgotPasswordText": "Forgot your password?",
 		"passwordPlaceholder": "Password",
-		"usernamePlaceholder": "Nome o Indirizzo Email",
+		"usernamePlaceholder": "",
 		"emailPlaceholder": "Email address",
 		"editEmailText": "Edit",
 		"alertListTitle": "Alerts",
@@ -35,7 +35,8 @@
 		"same-user-login": "Too many invalid login attempts, please try again in a few moments.",
 		"no-email": "Please enter an email address",
 		"no-password": "Please enter a password",
-		"no-username": "Please enter a username"
+		"no-username": "Please enter a username",
+		"logoAltText": "$${companyName}"
 	}
 })
 },
@@ -52,6 +53,7 @@
 		"authenticator-error": "Unfortunately, the code could not be verified. Please try again later.",
 		"too-many-failures": "Too many invalid codes, please try again in a few moments.",
 		"transaction-not-found": "Your enrollment transaction expired, you will need to start again.",
+		"logoAltText": "$${companyName}",
 		"usePasswordText": "Use password"
 	},
 	"mfa-otp-enrollment-qr": {
@@ -92,7 +94,7 @@
 		"pageTitle": "Create a password to sign up $${clientName}",
 		"title": "Create an account",
 		"description": "Enter your email and choose a password to complete your account creation.",
-		"separatorText": "Oppure",
+		"separatorText": "",
 		"buttonText": "Create account",
 		"emailPlaceholder": "Email",
 		"editEmailText": "Edit",
@@ -108,7 +110,7 @@
 		"invitationDescription": "Sign up to accept $${inviterName}'s invitation to join $${companyName} on $${clientName}.",
 		"email-in-use": "A user with this email already exists.",
 		"invalid-email-format": "Invalid email",
-		"password-too-weak": "Questa password non è abbastanza sicura.",
+		"password-too-weak": "",
 		"password-policy-not-conformant": "Password strenght: Weak. Please consider changing it.",
 		"password-too-common": "The password is too simple. Please use a more secure password to continue.",
 		"password-previously-used": "This password is not safe. Please choose something harder to guess.",
@@ -129,7 +131,8 @@
 		"no-email": "Please enter an email address",
 		"no-password": "Please enter a password.",
 		"no-re-enter-password": "Please re-enter new password",
-		"no-username": "Please enter a username"
+		"no-username": "Please enter a username",
+		"logoAltText": "$${companyName}"
 	}
 })
 },
@@ -179,6 +182,7 @@
 		"passwordPlaceholder": "New password",
 		"reEnterpasswordPlaceholder": "Re-enter new password",
 		"passwordSecurityText": "Password must be 8 characters or longer, and must contain at least: 1 lowercase, 1 uppercase, 1 special character, and a number.",
+		"logoAltText": "$${companyName}",
 		"auth0-users-expired-ticket": "This session has expired.",
 		"custom-script-error-code": "Something went wrong, please try again later.",
 		"auth0-users-used-ticket": "This password is already used.",
@@ -280,7 +284,7 @@
 		"footerLinkText": "Account aanmaken",
 		"signupActionLinkText": "",
 		"footerText": "Heb je nog geen account?",
-		"signupActionText": "Registrierung",
+		"signupActionText": "Aanmelden",
 		"forgotPasswordText": "Je wachtwoord vergeten?",
 		"passwordPlaceholder": "Wachtwoord",
 		"usernamePlaceholder": "",
@@ -303,7 +307,8 @@
 		"same-user-login": "Te veel mislukte inlogpogingen, probeer het straks opnieuw.",
 		"no-email": "Vul je e-mailadres in",
 		"no-password": "Vul je wachtwoord in",
-		"no-username": "Vul je gebruikersnaam in"
+		"no-username": "Vul je gebruikersnaam in",
+		"logoAltText": "$${companyName}"
 	}
 })
 },
@@ -320,6 +325,7 @@
 		"authenticator-error": "Helaas kon de code niet worden geverifieerd. Probeer het later nogmaals.",
 		"too-many-failures": "Te veel onjuiste codes, probeer het opnieuw in een paar minuten.",
 		"transaction-not-found": "",
+		"logoAltText": "$${companyName}",
 		"usePasswordText": "Gebruik wachtwoord"
 	},
 	"mfa-otp-enrollment-qr": {
@@ -368,7 +374,7 @@
 		"federatedConnectionButtonText": "Ga verder met $${connectionName}",
 		"footerLinkText": "Inloggen",
 		"loginActionLinkText": "",
-		"footerText": "Door op 'Account aanmaken' te drukken, bevestig je dat je onze algemene voorwaarden hebt gelezen en ermee instemt.",
+		"footerText": "Door op 'Account aanmaken' te drukken, bevestig je dat je onze gebruikersovereenkomst hebt gelezen en ermee instemt.",
 		"passwordPlaceholder": "Wachtwoord",
 		"passwordSecurityText": "Het wachtwoord moet bevatten:",
 		"usernamePlaceholder": "Gebruikersnaam",
@@ -397,7 +403,8 @@
 		"no-email": "Vul het e-mailadres in.",
 		"no-password": "Vul een wachtwoord in.",
 		"no-re-enter-password": "Vul het wachtwoord opnieuw in.",
-		"no-username": "Vul de gebruikersnaam in"
+		"no-username": "Vul de gebruikersnaam in",
+		"logoAltText": "$${companyName}"
 	}
 })
 },
@@ -447,6 +454,7 @@
 		"passwordPlaceholder": "Nieuw wachtwoord",
 		"reEnterpasswordPlaceholder": "Voor het nieuwe wachtwoord opnieuw in",
 		"passwordSecurityText": "Wachtwoord moet uit minimaal 8 karakters bestaan en minstens: 1 kleine letter, 1 hoofdletter, 1 speciaal teken en een cijfer.",
+		"logoAltText": "$${companyName}",
 		"auth0-users-expired-ticket": "Deze sessie is verlopen",
 		"custom-script-error-code": "Er is iets misgegaan, probeer het later opnieuw",
 		"auth0-users-used-ticket": "Dit wachtwoord is al eens gebruikt",
@@ -548,7 +556,7 @@
 		"footerLinkText": "Benutzerkonto eröffnen",
 		"signupActionLinkText": "",
 		"footerText": "Sie haben noch kein Konto?",
-		"signupActionText": "S’inscrire",
+		"signupActionText": "Registrierung",
 		"forgotPasswordText": "Passwort vergessen?",
 		"passwordPlaceholder": "Passwort",
 		"usernamePlaceholder": "",
@@ -571,7 +579,8 @@
 		"same-user-login": "Zu viele ungültige Anmeldeversuche. Bitte versuchen Sie es nachher noch einmal.",
 		"no-email": "Bitte geben Sie Ihre E-Mail-Adresse ein.",
 		"no-password": "Bitte geben Sie Ihr Passwort ein.",
-		"no-username": "Bitte geben Sie Ihren Benutzernamen ein."
+		"no-username": "Bitte geben Sie Ihren Benutzernamen ein.",
+		"logoAltText": "$${companyName}"
 	}
 })
 },
@@ -588,6 +597,7 @@
 		"authenticator-error": "Leider konnte der Code nicht verifiziert werden. Versuchen Sie es später noch einmal.",
 		"too-many-failures": "Zu viele ungültige Codes. Bitte versuchen Sie es in ein paar Minuten noch einmal.",
 		"transaction-not-found": "",
+		"logoAltText": "$${companyName}",
 		"usePasswordText": "Passwort verwenden"
 	},
 	"mfa-otp-enrollment-qr": {
@@ -665,7 +675,8 @@
 		"no-email": "Bitte geben Sie Ihre E-Mail-Adresse ein.",
 		"no-password": "Bitte geben Sie ein Passwort ein.",
 		"no-re-enter-password": "Geben Sie Ihr Passwort erneut ein.",
-		"no-username": "Geben Sie Ihren Benutzernamen ein"
+		"no-username": "Geben Sie Ihren Benutzernamen ein",
+		"logoAltText": "$${companyName}"
 	}
 })
 },
@@ -715,6 +726,7 @@
 		"passwordPlaceholder": "Neues Passwort",
 		"reEnterpasswordPlaceholder": "Geben Sie Ihr neues Passwort erneut ein",
 		"passwordSecurityText": "Das Kennwort muss mindestens 8 Zeichen lang sein und mindestens 1 Kleinbuchstaben, 1 Großbuchstaben, 1 Sonderzeichen und 1 Zahl enthalten.",
+		"logoAltText": "$${companyName}",
 		"auth0-users-expired-ticket": "Die Sitzung ist abgelaufen.",
 		"custom-script-error-code": "Etwas ist schiefgelaufen. Bitte versuchen Sie es später erneut.",
 		"auth0-users-used-ticket": "Dieses Passwort wurde bereits verwendet.",
@@ -816,7 +828,7 @@
 		"footerLinkText": "Créer un compte",
 		"signupActionLinkText": "",
 		"footerText": "Vous n'avez pas encore de compte ?",
-		"signupActionText": "Registrarse",
+		"signupActionText": "S’inscrire",
 		"forgotPasswordText": "Mot de passe oublié ?",
 		"passwordPlaceholder": "Mot de passe",
 		"usernamePlaceholder": "",
@@ -839,7 +851,8 @@
 		"same-user-login": "Trop de tentatives de connexion invalides, veuillez réessayer dans quelques instants.",
 		"no-email": "Veuillez saisir l'adresse e-mail",
 		"no-password": "Veuillez entrer votre mot de passe",
-		"no-username": "Veuillez entrer votre nom d'utilisateur"
+		"no-username": "Veuillez entrer votre nom d'utilisateur",
+		"logoAltText": "$${companyName}"
 	}
 })
 },
@@ -856,6 +869,7 @@
 		"authenticator-error": "Malheureusement, le code n'a pas pu être vérifié. Veuillez réessayer plus tard.",
 		"too-many-failures": "Essais de connexion multiples invalides, veuillez réessayer dans quelques instants.",
 		"transaction-not-found": "",
+		"logoAltText": "$${companyName}",
 		"usePasswordText": "Utiliser le mot de passe"
 	},
 	"mfa-otp-enrollment-qr": {
@@ -933,7 +947,8 @@
 		"no-email": "Veuillez entrer l'adresse e-mail",
 		"no-password": "Veuillez entrer un mot de passe.",
 		"no-re-enter-password": "Veuillez saisir à nouveau le nouveau mot de passe",
-		"no-username": "Veuillez entrer votre nom d'utilisateur"
+		"no-username": "Veuillez entrer votre nom d'utilisateur",
+		"logoAltText": "$${companyName}"
 	}
 })
 },
@@ -983,6 +998,7 @@
 		"passwordPlaceholder": "Nouveau mot de passe",
 		"reEnterpasswordPlaceholder": "Saisissez à nouveau le nouveau mot de passe",
 		"passwordSecurityText": "Le mot de passe doit comporter au moins 8 caractères et doit contenir au moins : 1 minuscule, 1 majuscule, 1 caractère spécial et un chiffre.",
+		"logoAltText": "$${companyName}",
 		"auth0-users-expired-ticket": "Cette session a expiré.",
 		"custom-script-error-code": "Une erreur est survenue, veuillez réessayer plus tard.",
 		"auth0-users-used-ticket": "Ce mot de passe est déjà utilisé.",
@@ -1084,7 +1100,7 @@
 		"footerLinkText": "Crear una cuenta",
 		"signupActionLinkText": "",
 		"footerText": "¿No tienes cuenta?",
-		"signupActionText": "Registrazione",
+		"signupActionText": "Registrarse",
 		"forgotPasswordText": "¿Olvidaste tu contraseña?",
 		"passwordPlaceholder": "Contraseña",
 		"usernamePlaceholder": "",
@@ -1107,7 +1123,8 @@
 		"same-user-login": "Muchos intentos de ingreso fallidos. Intenta de nuevo en un momento.",
 		"no-email": "Ingresa un e-mail",
 		"no-password": "Ingresa una contraseña",
-		"no-username": "Ingresa un nombre de usuario"
+		"no-username": "Ingresa un nombre de usuario",
+		"logoAltText": "$${companyName}"
 	}
 })
 },
@@ -1124,6 +1141,7 @@
 		"authenticator-error": "Desafortunadamente, el código no pudo ser verificado. Intenta más tarde.",
 		"too-many-failures": "Muchos intentos fallidos. Intenta de nuevo en un momento.",
 		"transaction-not-found": "",
+		"logoAltText": "$${companyName}",
 		"usePasswordText": "Usar contraseńa"
 	},
 	"mfa-otp-enrollment-qr": {
@@ -1172,7 +1190,7 @@
 		"federatedConnectionButtonText": "Continuar con $${connectionName}",
 		"footerLinkText": "Ingresar",
 		"loginActionLinkText": "",
-		"footerText": "Al pulsar 'Crear una cuenta' confirmas que has leído y que aceptas nuestros términos y condiciones.",
+		"footerText": "Al pulsar 'Crear una cuenta' confirmas que has leído y que aceptas nuestro contrato del usuario.",
 		"passwordPlaceholder": "Contraseña",
 		"passwordSecurityText": "La contraseña debe contener:",
 		"usernamePlaceholder": "Nombre de usuario",
@@ -1201,7 +1219,8 @@
 		"no-email": "Ingresa un correo electrónico",
 		"no-password": "Ingresa una contraseña",
 		"no-re-enter-password": "Ingresa una nueva contraseña",
-		"no-username": "Ingresa un nombre de usuario"
+		"no-username": "Ingresa un nombre de usuario",
+		"logoAltText": "$${companyName}"
 	}
 })
 },
@@ -1251,6 +1270,7 @@
 		"passwordPlaceholder": "Nueva contraseña",
 		"reEnterpasswordPlaceholder": "Reingresa la nueva contraseña",
 		"passwordSecurityText": "La password deve essere di almeno 8 caratteri e deve contenere almeno 1 minuscolo, 1 maiuscolo, 1 simbolo speciale e un numero.",
+		"logoAltText": "$${companyName}",
 		"auth0-users-expired-ticket": "Esta sesión ha caducado.",
 		"custom-script-error-code": "Algo ha salido mal. Inténtalo de nuevo.",
 		"auth0-users-used-ticket": "Esta contraseña ya está en uso.",
@@ -1350,12 +1370,12 @@
 		"buttonText": "Accedi",
 		"federatedConnectionButtonText": "Continua con $${connectionName}",
 		"footerLinkText": "Crea account",
-		"signupActionLinkText": "",
+		"signupActionLinkText": "$${footerLinkText}",
 		"footerText": "Non hai un account?",
-		"signupActionText": "",
+		"signupActionText": "Registrazione",
 		"forgotPasswordText": "Hai dimenticato la password?",
 		"passwordPlaceholder": "Password",
-		"usernamePlaceholder": "",
+		"usernamePlaceholder": "Nome o Indirizzo Email",
 		"emailPlaceholder": "E-mail",
 		"editEmailText": "Modifica",
 		"alertListTitle": "",
@@ -1375,7 +1395,8 @@
 		"same-user-login": "Troppi tentativi di accesso su questo account. Riprova più tardi.",
 		"no-email": "Inserisci un indirizzo email.",
 		"no-password": "Inserisci una password.",
-		"no-username": "Inserisci un nome utente."
+		"no-username": "Inserisci un nome utente.",
+		"logoAltText": "$${companyName}"
 	}
 })
 },
@@ -1392,6 +1413,7 @@
 		"authenticator-error": "Non siamo riusciti a verificare il codice. Per favore riprova più tardi.",
 		"too-many-failures": "Sono stati inseriti troppi codici non validi, riprova tra un paio di minuti.",
 		"transaction-not-found": "",
+		"logoAltText": "$${companyName}",
 		"usePasswordText": "Usa password"
 	},
 	"mfa-otp-enrollment-qr": {
@@ -1432,7 +1454,7 @@
 		"pageTitle": "Crea una password per registrarti $${clientName}",
 		"title": "Crea account",
 		"description": "Inserisci l'indirizzo e-mail e una password per creare un account.",
-		"separatorText": "",
+		"separatorText": "Oppure",
 		"buttonText": "Crea account",
 		"emailPlaceholder": "Indirizzo email",
 		"editEmailText": "Modifica",
@@ -1448,7 +1470,7 @@
 		"invitationDescription": "Iscriviti per accettare l'invito di $${inviterName} a partecipare a $${companyName} su $${clientName}.",
 		"email-in-use": "Questo nome utente già esiste.",
 		"invalid-email-format": "L'email non è valida.",
-		"password-too-weak": "",
+		"password-too-weak": "Questa password non è abbastanza sicura.",
 		"password-policy-not-conformant": "Questa password non è molto sicura. Considera di cambiarla.",
 		"password-too-common": "Questa password è troppo semplice. Provane una più sicura.",
 		"password-previously-used": "Questa password è già stata utilizzata. Provane un'altra.",
@@ -1469,7 +1491,8 @@
 		"no-email": "Si prega di inserire un indirizzo email",
 		"no-password": "Inserisci una password.",
 		"no-re-enter-password": "Si prega di reinserire la password.",
-		"no-username": "Inserisci un nome utente."
+		"no-username": "Inserisci un nome utente.",
+		"logoAltText": "$${companyName}"
 	}
 })
 },
@@ -1519,6 +1542,7 @@
 		"passwordPlaceholder": "Nuova password",
 		"reEnterpasswordPlaceholder": "Reinserisci la nuova password",
 		"passwordSecurityText": "La contraseña debe tener 8 caracteres o más y debe contener al menos 1 minúscula, 1 mayúscula, 1 carácter especial y un número.",
+		"logoAltText": "$${companyName}",
 		"auth0-users-expired-ticket": "Questa sessione è scaduta.",
 		"custom-script-error-code": "Qualcosa non ha funzionato, riprova più tardi.",
 		"auth0-users-used-ticket": "Questa password è già stata utilizzata.",

@@ -54,9 +54,11 @@ const excelToJson = (function () {
     for (let cell in sheet) {
       // !ref is not a data to be retrieved || this cell doesn't have a value
       if (
-        cell == "!ref" ||
-        (sheet[cell].v === undefined &&
-          !(_config.sheetStubs && sheet[cell].t === "z"))
+        cell == "!ref"
+        // VT: disable the exclusion of empty cells
+        // ||
+        // (sheet[cell].v === undefined &&
+        //   !(_config.sheetStubs && sheet[cell].t === "z"))
       ) {
         continue;
       }
