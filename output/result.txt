@@ -97,18 +97,12 @@
 		"separatorText": "",
 		"buttonText": "Create account",
 		"emailPlaceholder": "Email",
-		"editEmailText": "Edit",
-		"editLinkScreenReadableText": "Edit email address",
 		"federatedConnectionButtonText": "Continue with $${connectionName}",
-		"footerLinkText": "Log in",
-		"loginActionLinkText": "loginActionLinkText",
-		"footerText": "By clicking on Create account, you confirm that you have read and agree to our User Agreement.",
+		"loginActionLinkText": "",
 		"passwordPlaceholder": "Password",
-		"passwordSecurityText": "The password must contain:",
+		"passwordSecurityText": "Must contain at least: \n- 8 characters\n- 1 lowercase\n- 1 uppercase\n- 1 special character\n- 1 number",
 		"usernamePlaceholder": "Username",
-		"invitationTitle": "Accept your invitation to sign up $${clientName}",
-		"invitationDescription": "Sign up to accept $${inviterName}'s invitation to join $${companyName} on $${clientName}.",
-		"email-in-use": "A user with this email already exists.",
+		"email-in-use": "An error occurred, please try again later. If you already have a Bitvavo account, we will send you an email.",
 		"invalid-email-format": "Invalid email",
 		"password-too-weak": "",
 		"password-policy-not-conformant": "Password strenght: Weak. Please consider changing it.",
@@ -131,8 +125,7 @@
 		"no-email": "Please enter an email address",
 		"no-password": "Please enter a password.",
 		"no-re-enter-password": "Please re-enter new password",
-		"no-username": "Please enter a username",
-		"logoAltText": "$${companyName}"
+		"no-username": "Please enter a username"
 	}
 })
 },
@@ -178,10 +171,10 @@
 		"pageTitle": "Reset your password $${clientName}",
 		"title": "Change your password",
 		"description": "To update your existing password, enter a new password twice below.",
-		"buttonText": "Reset password",
+		"buttonText": "Change password",
 		"passwordPlaceholder": "New password",
 		"reEnterpasswordPlaceholder": "Re-enter new password",
-		"passwordSecurityText": "Password must be 8 characters or longer, and must contain at least: 1 lowercase, 1 uppercase, 1 special character, and a number.",
+		"passwordSecurityText": "Must contain at least: \n- 8 characters\n- 1 lowercase\n- 1 uppercase\n- 1 special character\n- 1 number",
 		"logoAltText": "$${companyName}",
 		"auth0-users-expired-ticket": "This session has expired.",
 		"custom-script-error-code": "Something went wrong, please try again later.",
@@ -193,7 +186,7 @@
 		"pageTitle": "Password reset successful $${clientName}",
 		"eventTitle": "Password changed",
 		"description": "Your password has been changed successfully.",
-		"buttonText": "Back to $${clientName}"
+		"buttonText": "Continue"
 	},
 	"reset-password-error": {
 		"pageTitle": "Password reset error $${clientName}",
@@ -228,13 +221,12 @@
 		"too-many-email": "You have exceeded the maximum amount of email requests allowed. Please try again in a few moments.",
 		"too-many-requests": "You have exceeded the maximum amount of email requests allowed. Please try again in a few moments.",
 		"no-email": "Please enter email address",
-		"no-username": "Please enter username",
-		"logoAltText": "$${companyName}"
+		"no-username": "Please enter username"
 	},
 	"reset-password-email": {
 		"pageTitle": "Check your email $${clientName}",
 		"title": "Check Your Email",
-		"emailDescription": "Please check the email address $${email} for instructions on how to reset your password.",
+		"emailDescription": "Please check your inbox for instructions on how to change your password.",
 		"resendLinkText": "Resend email",
 		"usernameDescription": "Please check the email address associated with the username $${email} for instructions on how to reset your password."
 	}
@@ -250,7 +242,7 @@
 		"description": "Make sure to store this recovery code securely. It will be required if you need to log in without your current device.\nNote: Preferably, do not store the code only on your phone.",
 		"altText": "Recovery code to copy",
 		"buttonText": "Continue",
-		"checkboxText": "I have safely recorded this code.",
+		"checkboxText": "I have safely stored this code.",
 		"copyCodeButtonText": "Copy code",
 		"no-confirmation": "Please confirm you have recorded the recovery code"
 	},
@@ -284,7 +276,7 @@
 		"footerLinkText": "Account aanmaken",
 		"signupActionLinkText": "",
 		"footerText": "Heb je nog geen account?",
-		"signupActionText": "Aanmelden",
+		"signupActionText": "Registreren",
 		"forgotPasswordText": "Je wachtwoord vergeten?",
 		"passwordPlaceholder": "Wachtwoord",
 		"usernamePlaceholder": "",
@@ -369,18 +361,12 @@
 		"separatorText": "",
 		"buttonText": "Account aanmaken",
 		"emailPlaceholder": "E-mailadres",
-		"editEmailText": "Wijzigen",
-		"editLinkScreenReadableText": "",
 		"federatedConnectionButtonText": "Ga verder met $${connectionName}",
-		"footerLinkText": "Inloggen",
 		"loginActionLinkText": "",
-		"footerText": "Door op 'Account aanmaken' te drukken, bevestig je dat je onze gebruikersovereenkomst hebt gelezen en ermee instemt.",
 		"passwordPlaceholder": "Wachtwoord",
-		"passwordSecurityText": "Het wachtwoord moet bevatten:",
+		"passwordSecurityText": "Moet ten minste bevatten: \n- 8 karakters\n- 1 kleine letter\n- 1 hoofdletter\n- 1 speciaal teken\n- 1 cijfer",
 		"usernamePlaceholder": "Gebruikersnaam",
-		"invitationTitle": "Accepteer je uitnodiging om een account aan te maken $${clientName}",
-		"invitationDescription": "Maak een account aan om $${inviterName}'s uitnodiging te accepteren voor $${companyName} met $${clientName}.",
-		"email-in-use": "Er is al een gebruiker met dit e-mailadres.",
+		"email-in-use": "Er is een fout opgetreden, probeer het later opnieuw. Als je al een Bitvavo account hebt, sturen we je een e-mail.",
 		"invalid-email-format": "Ongeldige e-mail",
 		"password-too-weak": "",
 		"password-policy-not-conformant": "Wachtwoord sterkte: zwak. Overweeg een ander wachtwoord.",
@@ -403,8 +389,7 @@
 		"no-email": "Vul het e-mailadres in.",
 		"no-password": "Vul een wachtwoord in.",
 		"no-re-enter-password": "Vul het wachtwoord opnieuw in.",
-		"no-username": "Vul de gebruikersnaam in",
-		"logoAltText": "$${companyName}"
+		"no-username": "Vul de gebruikersnaam in"
 	}
 })
 },
@@ -450,10 +435,10 @@
 		"pageTitle": "Reset je wachtwoord $${clientName}",
 		"title": "Verander je wachtwoord",
 		"description": "Vul hieronder twee keer het nieuwe wachtwoord in, om je huidige wachtwoord te veranderen.",
-		"buttonText": "Reset je wachtwoord",
+		"buttonText": "Wachtwoord veranderen",
 		"passwordPlaceholder": "Nieuw wachtwoord",
 		"reEnterpasswordPlaceholder": "Voor het nieuwe wachtwoord opnieuw in",
-		"passwordSecurityText": "Wachtwoord moet uit minimaal 8 karakters bestaan en minstens: 1 kleine letter, 1 hoofdletter, 1 speciaal teken en een cijfer.",
+		"passwordSecurityText": "Moet ten minste bevatten: \n- 8 karakters\n- 1 kleine letter\n- 1 hoofdletter\n- 1 speciaal teken\n- 1 cijfer",
 		"logoAltText": "$${companyName}",
 		"auth0-users-expired-ticket": "Deze sessie is verlopen",
 		"custom-script-error-code": "Er is iets misgegaan, probeer het later opnieuw",
@@ -465,7 +450,7 @@
 		"pageTitle": "Wachtwoord reset succesvol $${clientName}",
 		"eventTitle": "Wachtwoord veranderd",
 		"description": "Je wachtwoord is succesvol veranderd",
-		"buttonText": "Terug naar $${clientName}"
+		"buttonText": "Ga verder"
 	},
 	"reset-password-error": {
 		"pageTitle": "Fout bij reset wachtwoord $${clientName}",
@@ -500,13 +485,12 @@
 		"too-many-email": "Je hebt het maximaal toegestane aantal e-mailverzoeken overschreden.",
 		"too-many-requests": "Je hebt het maximaal toegestane aantal e-mailverzoeken overschreden.",
 		"no-email": "Vul het e-mailadres in.",
-		"no-username": "Vul de gebruikersnaam in",
-		"logoAltText": "$${companyName}"
+		"no-username": "Vul de gebruikersnaam in"
 	},
 	"reset-password-email": {
 		"pageTitle": "Check je e-mail $${clientName}",
 		"title": "Check je e-mail",
-		"emailDescription": "Check je e-mailadres $${email}. Hier lees je hoe je jouw wachtwoord kunt wijzigen",
+		"emailDescription": "Check je inbox. Hier lees je hoe je jouw wachtwoord kunt veranderen.",
 		"resendLinkText": "Stuur de e-mail opnieuw",
 		"usernameDescription": "Controleer het e-mailadres dat verbonden is aan de gebruikersnaam $${email}. Hier vind je de instructies voor het resetten van je wachtwoord."
 	}
@@ -556,7 +540,7 @@
 		"footerLinkText": "Benutzerkonto eröffnen",
 		"signupActionLinkText": "",
 		"footerText": "Sie haben noch kein Konto?",
-		"signupActionText": "Registrierung",
+		"signupActionText": "Registrieren",
 		"forgotPasswordText": "Passwort vergessen?",
 		"passwordPlaceholder": "Passwort",
 		"usernamePlaceholder": "",
@@ -641,18 +625,12 @@
 		"separatorText": "",
 		"buttonText": "Benutzerkonto eröffnen",
 		"emailPlaceholder": "E-Mail-Adresse",
-		"editEmailText": "Bearbeiten",
-		"editLinkScreenReadableText": "",
 		"federatedConnectionButtonText": "Weiter mit $${connectionName}",
-		"footerLinkText": "Einloggen",
 		"loginActionLinkText": "",
-		"footerText": "Indem Sie auf „Benutzerkonto eröffnen“ drücken, bestätigen Sie, dass Sie unsere Allgemeinen Geschäftsbedingungen gelesen haben und mit ihnen einverstanden sind.",
 		"passwordPlaceholder": "Passwort",
-		"passwordSecurityText": "Das Passwort muss enthalten:",
+		"passwordSecurityText": "Muss mindestens enthalten:\n-  8 Zeichen\n- 1 Kleinbuchstabe\n- 1 Großbuchstabe\n- 1 Sonderzeichen\n- 1 Zahl",
 		"usernamePlaceholder": "Benutzername",
-		"invitationTitle": "Nehmen Sie Ihre Einladung zur Registrierung an $${clientName}",
-		"invitationDescription": "Erstellen Sie ein Konto, um $${inviterName}s Einladung zur Registrierung auf $${clientName} anzunehmen",
-		"email-in-use": "Ein User mit dieser E-Mail-Adresse existiert bereits.",
+		"email-in-use": "Es ist ein Fehler aufgetreten. Bitte versuchen Sie es später noch einmal. Wenn Sie bereits ein Bitvavo-Konto haben, senden wir Ihnen eine E-Mail.",
 		"invalid-email-format": "Ungültige E-Mail-Adresse",
 		"password-too-weak": "",
 		"password-policy-not-conformant": "Passwortstärke: schwach. Bitte denken Sie darüber nach, das Passwort anzupassen.",
@@ -675,8 +653,7 @@
 		"no-email": "Bitte geben Sie Ihre E-Mail-Adresse ein.",
 		"no-password": "Bitte geben Sie ein Passwort ein.",
 		"no-re-enter-password": "Geben Sie Ihr Passwort erneut ein.",
-		"no-username": "Geben Sie Ihren Benutzernamen ein",
-		"logoAltText": "$${companyName}"
+		"no-username": "Geben Sie Ihren Benutzernamen ein"
 	}
 })
 },
@@ -722,10 +699,10 @@
 		"pageTitle": "Setzen Sie Ihr Passwort zurück $${clientName}",
 		"title": "Ändern Sie Ihr Passwort",
 		"description": "Um Ihr jetziges Passwort zu verändern, füllen Sie unten Ihr neues Passwort zweimal ein.",
-		"buttonText": "Passwort zurücksetzen",
+		"buttonText": "Passwort ändern",
 		"passwordPlaceholder": "Neues Passwort",
 		"reEnterpasswordPlaceholder": "Geben Sie Ihr neues Passwort erneut ein",
-		"passwordSecurityText": "Das Kennwort muss mindestens 8 Zeichen lang sein und mindestens 1 Kleinbuchstaben, 1 Großbuchstaben, 1 Sonderzeichen und 1 Zahl enthalten.",
+		"passwordSecurityText": "Muss mindestens enthalten:\n-  8 Zeichen\n- 1 Kleinbuchstabe\n- 1 Großbuchstabe\n- 1 Sonderzeichen\n- 1 Zahl",
 		"logoAltText": "$${companyName}",
 		"auth0-users-expired-ticket": "Die Sitzung ist abgelaufen.",
 		"custom-script-error-code": "Etwas ist schiefgelaufen. Bitte versuchen Sie es später erneut.",
@@ -737,7 +714,7 @@
 		"pageTitle": "Passwort erfolgreich zurückgesetzt $${clientName}",
 		"eventTitle": "Passwort geändert",
 		"description": "Ihre Passwortänderung war erfolgreich.",
-		"buttonText": "Zurück nach $${clientName}"
+		"buttonText": "Weiter"
 	},
 	"reset-password-error": {
 		"pageTitle": "Fehler beim Zurücksetzen des Passworts $${clientName}",
@@ -772,13 +749,12 @@
 		"too-many-email": "Sie haben die maximale Anzahl an E-Mail-Anfragen überschritten. Bitte versuchen Sie es später noch einmal.",
 		"too-many-requests": "Sie haben die maximale Anzahl an E-Mail-Anfragen überschritten. Bitte versuchen Sie es später noch einmal.",
 		"no-email": "Bitte geben Sie Ihre E-Mail-Adresse ein.",
-		"no-username": "Geben Sie Ihren Benutzernamen ein",
-		"logoAltText": "$${companyName}"
+		"no-username": "Geben Sie Ihren Benutzernamen ein"
 	},
 	"reset-password-email": {
 		"pageTitle": "Überprüfen Sie Ihre E-Mails,  $${clientName}",
 		"title": "Überprüfen Sie Ihre E-Mails",
-		"emailDescription": "Bitte überprüfen Sie Ihre E-Mail-Adresse $${email}, um eine Anleitung zum Zurücksetzen Ihres Passworts zu erhalten.",
+		"emailDescription": "Bitte überprüfen Sie Ihren Posteingang, um eine Anleitung zum Zurücksetzen Ihres Passworts zu erhalten.",
 		"resendLinkText": "E-Mail noch einmal senden",
 		"usernameDescription": "Bitte überprüfen Sie die dem Benutzernamen $${email} zugewiesene E-Mail-Adresse, um eine Anleitung zum Zurücksetzen Ihres Passworts zu erhalten."
 	}
@@ -913,18 +889,12 @@
 		"separatorText": "",
 		"buttonText": "Créer un compte",
 		"emailPlaceholder": "Adresse électronique",
-		"editEmailText": "Modifier",
-		"editLinkScreenReadableText": "",
 		"federatedConnectionButtonText": "Continuer avec $${connectionName}",
-		"footerLinkText": "Se connecter",
 		"loginActionLinkText": "",
-		"footerText": "En appuyant sur « Créer un compte », vous confirmez que vous avez lu et que vous acceptez nos conditions générales d'utilisation.",
 		"passwordPlaceholder": "Mot de passe",
-		"passwordSecurityText": "Le mot de passe doit contenir :",
+		"passwordSecurityText": "Doit comporter au moins : \n- 8 caractères\n- 1 minuscule\n- 1 majuscule\n- 1 caractère spécial\n- 1 chiffre",
 		"usernamePlaceholder": "Nom d'utilisateur :",
-		"invitationTitle": "Accepter votre invitation à vous inscrire $${clientName}",
-		"invitationDescription": "Inscrivez-vous pour accepter l'invitation de $${inviterName} à rejoindre $${companyName} sur $${clientName}.",
-		"email-in-use": "Un utilisateur avec cette adresse e-mail existe déjà.",
+		"email-in-use": "Une erreur s’est produite, veuillez réessayer plus tard. Si vous possédez déjà un compte Bitvavo, nous vous enverrons un e-mail.",
 		"invalid-email-format": "Adresse e-mail invalide",
 		"password-too-weak": "",
 		"password-policy-not-conformant": "Difficulté du mot de passe : Faible. Veuillez envisager de le changer.",
@@ -936,7 +906,7 @@
 		"invalid-username-max-length": "Le nom d'utilisateur doit contenir un maximum de $${max} caracteres.",
 		"invalid-username-min-length": "Le nom d'utilisateur doit contenir un minimum de $${min} caractères.",
 		"invalid-username-invalid-characters": "Le nom d'utilisateur contient des caractères non valides.",
-		"invalid-username-email-not-allowed": "Le nom d'utilisateur ne peut pas être une adresse email.",
+		"invalid-username-email-not-allowed": "Le nom d'utilisateur ne peut pas être une adresse e-mail.",
 		"username-taken": "Ce nom d'utilisateur existe déjà. Veuillez en essayer un autre.",
 		"custom-script-error-code": "Une erreur s'est produite, veuillez réessayer plus tard.",
 		"auth0-users-validation": "Une erreur s'est produite, veuillez réessayer plus tard.",
@@ -947,8 +917,7 @@
 		"no-email": "Veuillez entrer l'adresse e-mail",
 		"no-password": "Veuillez entrer un mot de passe.",
 		"no-re-enter-password": "Veuillez saisir à nouveau le nouveau mot de passe",
-		"no-username": "Veuillez entrer votre nom d'utilisateur",
-		"logoAltText": "$${companyName}"
+		"no-username": "Veuillez entrer votre nom d'utilisateur"
 	}
 })
 },
@@ -994,10 +963,10 @@
 		"pageTitle": "Réinitialiser votre mot de passe $${clientName}",
 		"title": "Changez votre mot de passe",
 		"description": "Pour modifier votre mot de passe actuel, saisissez deux fois un nouveau mot de passe ci-dessous.",
-		"buttonText": "Réinitialiser le mot de passe",
+		"buttonText": "Changer le mot de passe",
 		"passwordPlaceholder": "Nouveau mot de passe",
 		"reEnterpasswordPlaceholder": "Saisissez à nouveau le nouveau mot de passe",
-		"passwordSecurityText": "Le mot de passe doit comporter au moins 8 caractères et doit contenir au moins : 1 minuscule, 1 majuscule, 1 caractère spécial et un chiffre.",
+		"passwordSecurityText": "Doit comporter au moins : \n- 8 caractères\n- 1 minuscule\n- 1 majuscule\n- 1 caractère spécial\n- 1 chiffre",
 		"logoAltText": "$${companyName}",
 		"auth0-users-expired-ticket": "Cette session a expiré.",
 		"custom-script-error-code": "Une erreur est survenue, veuillez réessayer plus tard.",
@@ -1009,7 +978,7 @@
 		"pageTitle": "Réinitialisation du mot de passe réussie $${clientName}",
 		"eventTitle": "Le mot de passe a été modifié",
 		"description": "Votre mot de passe a été modifié avec succès.",
-		"buttonText": "Retourner à $${clientName}"
+		"buttonText": "Continuer"
 	},
 	"reset-password-error": {
 		"pageTitle": "Erreur de réinitialisation du mot de passe $${clientName}",
@@ -1031,7 +1000,7 @@
 		"title": "Mot de passe oublié ?",
 		"backToLoginLinkText": "Retour à la page de connexion",
 		"buttonText": "Continuer",
-		"descriptionEmail": "Entrez votre adresse mail pour recevoir les consignes de réinitialisation du mot de passe.",
+		"descriptionEmail": "Entrez votre adresse e-mail pour recevoir les consignes de réinitialisation du mot de passe.",
 		"descriptionUsername": "Entrez votre nom d'utilisateur et nous vous indiquerons comment réinitialiser votre mot de passe.",
 		"placeholderEmail": "E-mail",
 		"placeholderUsername": "Nom d'utilisateur",
@@ -1044,13 +1013,12 @@
 		"too-many-email": "Vous avez dépassé le nombre maximum de demandes par e-mail autorisé. Merci de réessayer dans quelques instants.",
 		"too-many-requests": "Vous avez dépassé le nombre maximum de demandes par e-mail autorisé. Merci de réessayer dans quelques instants.",
 		"no-email": "Veuillez entrer l'adresse e-mail",
-		"no-username": "Veuillez entrer votre nom d'utilisateur",
-		"logoAltText": "$${companyName}"
+		"no-username": "Veuillez entrer votre nom d'utilisateur"
 	},
 	"reset-password-email": {
 		"pageTitle": "Vérifiez votre messagerie $${clientName}",
 		"title": "Vérifiez votre e-mail",
-		"emailDescription": "Veuillez vérifier l'adresse e-mail $${email} pour savoir comment réinitialiser votre mot de passe.",
+		"emailDescription": "Consultez votre boîte mail pour savoir comment réinitialiser votre mot de passe.",
 		"resendLinkText": "Ré-envoyer l'email",
 		"usernameDescription": "Veuillez vérifier l'adresse e-mail associée au nom d'utilisateur $${email} pour savoir comment réinitialiser votre mot de passe."
 	}
@@ -1185,18 +1153,12 @@
 		"separatorText": "",
 		"buttonText": "Crear una cuenta",
 		"emailPlaceholder": "Correo electrónico",
-		"editEmailText": "Editar",
-		"editLinkScreenReadableText": "",
 		"federatedConnectionButtonText": "Continuar con $${connectionName}",
-		"footerLinkText": "Ingresar",
 		"loginActionLinkText": "",
-		"footerText": "Al pulsar 'Crear una cuenta' confirmas que has leído y que aceptas nuestro contrato del usuario.",
 		"passwordPlaceholder": "Contraseña",
-		"passwordSecurityText": "La contraseña debe contener:",
+		"passwordSecurityText": "Debe tener al menos:\n- 8 caracteres\n- 1 minúscula\n- 1 mayúscula\n- 1 carácter especial\n- 1 número",
 		"usernamePlaceholder": "Nombre de usuario",
-		"invitationTitle": "Aceptar invitación para registrarte a $${clientName}",
-		"invitationDescription": "Regístrate para aceptar la invitación de $${inviterName} para unirte a $${clientName}",
-		"email-in-use": "Un usuario con este correo ya existe.",
+		"email-in-use": "Ha ocurrido un error. Intenta más tarde. Si ya tienes una cuenta Bitvavo, te enviaremos un correo electrónico.",
 		"invalid-email-format": "Correo electrónico incorrecto",
 		"password-too-weak": "",
 		"password-policy-not-conformant": "Seguridad de la contraseña: Débil. Considera cambiarla.",
@@ -1219,8 +1181,7 @@
 		"no-email": "Ingresa un correo electrónico",
 		"no-password": "Ingresa una contraseña",
 		"no-re-enter-password": "Ingresa una nueva contraseña",
-		"no-username": "Ingresa un nombre de usuario",
-		"logoAltText": "$${companyName}"
+		"no-username": "Ingresa un nombre de usuario"
 	}
 })
 },
@@ -1266,10 +1227,10 @@
 		"pageTitle": "Restablece tu contraseña $${clientName}",
 		"title": "Cambia tu contraseña",
 		"description": "Para cambiar tu contraseña actual, ingresa dos veces una nueva contraseña abajo.",
-		"buttonText": "Restablecer la contraseña",
+		"buttonText": "Cambiar la contraseña",
 		"passwordPlaceholder": "Nueva contraseña",
 		"reEnterpasswordPlaceholder": "Reingresa la nueva contraseña",
-		"passwordSecurityText": "La password deve essere di almeno 8 caratteri e deve contenere almeno 1 minuscolo, 1 maiuscolo, 1 simbolo speciale e un numero.",
+		"passwordSecurityText": "Debe tener al menos:\n- 8 caracteres\n- 1 minúscula\n- 1 mayúscula\n- 1 carácter especial\n- 1 número",
 		"logoAltText": "$${companyName}",
 		"auth0-users-expired-ticket": "Esta sesión ha caducado.",
 		"custom-script-error-code": "Algo ha salido mal. Inténtalo de nuevo.",
@@ -1281,7 +1242,7 @@
 		"pageTitle": "Restablecimiento de la contraseña con éxito $${clientName}",
 		"eventTitle": "Contraseña cambiada",
 		"description": "Tu contraseña ha sido cambiada con éxito.",
-		"buttonText": "Volver a $${clientName}"
+		"buttonText": "Continuar"
 	},
 	"reset-password-error": {
 		"pageTitle": "Error en el restablecimiento de la contraseña $${clientName}",
@@ -1316,13 +1277,12 @@
 		"too-many-email": "Has superado el número máximo de solicitudes de correo electrónico permitidas. Inténtalo de nuevo en unos momentos.",
 		"too-many-requests": "Has superado el número máximo de solicitudes de correo electrónico permitidas. Inténtalo de nuevo en unos momentos.",
 		"no-email": "Ingresa un e-mail",
-		"no-username": "Ingresa tu nombre de usuario",
-		"logoAltText": "$${companyName}"
+		"no-username": "Ingresa tu nombre de usuario"
 	},
 	"reset-password-email": {
 		"pageTitle": "Revisa tu correo electrónico $${clientName}",
 		"title": "Revisa tu correo electrónico",
-		"emailDescription": "Comprueba la dirección de correo electrónico $${email} para obtener instrucciones sobre cómo restablecer tu contraseña.",
+		"emailDescription": "Comprueba tu buzón para obtener instrucciones sobre cómo restablecer tu contraseña.",
 		"resendLinkText": "Reenviar el correo electrónico",
 		"usernameDescription": "Comprueba la dirección de correo electrónico $${email} asociada al nombre de usuario para obtener instrucciones sobre cómo restablecer la contraseña."
 	}
@@ -1372,7 +1332,7 @@
 		"footerLinkText": "Crea account",
 		"signupActionLinkText": "$${footerLinkText}",
 		"footerText": "Non hai un account?",
-		"signupActionText": "Registrazione",
+		"signupActionText": "Registrati",
 		"forgotPasswordText": "Hai dimenticato la password?",
 		"passwordPlaceholder": "Password",
 		"usernamePlaceholder": "Nome o Indirizzo Email",
@@ -1420,7 +1380,7 @@
 		"pageTitle": "Per accedere, scansiona il codice utilizzando una password monouso $${clientName}",
 		"title": "Proteggi il tuo account",
 		"description": "Scansiona il codice QR utilizzando un'app di autenticazione ed inserisci qui il codice fornito.",
-		"buttonText": "Prosegui",
+		"buttonText": "Continua",
 		"codeEnrollmentText": "Problemi con la scansione?",
 		"pickAuthenticatorText": "Prova un altro metodo",
 		"placeholder": "Inserisci qui il codice",
@@ -1434,7 +1394,7 @@
 	"mfa-otp-enrollment-code": {
 		"pageTitle": "Per accedere, copia il codice utilizzando una password monouso $${clientName}",
 		"backText": "Torna indietro",
-		"buttonText": "Prosegui",
+		"buttonText": "Continua",
 		"altText": "Codice da copiare",
 		"copyCodeButtonText": "Copia il codice",
 		"description": "Inserisci manualmente il codice seguente in un'app di autenticazione ed inserisci il codice fornito.",
@@ -1457,18 +1417,12 @@
 		"separatorText": "Oppure",
 		"buttonText": "Crea account",
 		"emailPlaceholder": "Indirizzo email",
-		"editEmailText": "Modifica",
-		"editLinkScreenReadableText": "",
 		"federatedConnectionButtonText": "Continua con $${connectionName}",
-		"footerLinkText": "Accedi",
 		"loginActionLinkText": "",
-		"footerText": "Cliccando Crea account confermi di aver letto e accettato le condizioni del servizio.",
 		"passwordPlaceholder": "Password",
-		"passwordSecurityText": "La tua password deve contenere:",
+		"passwordSecurityText": "Deve contenere almeno:\n- 8 caratteri\n- 1 minuscolo\n- 1 maiuscolo\n- 1 simbolo speciale\n- 1 numero",
 		"usernamePlaceholder": "Nome utente",
-		"invitationTitle": "Accetta l'invito per registrarti a $${clientName}",
-		"invitationDescription": "Iscriviti per accettare l'invito di $${inviterName} a partecipare a $${companyName} su $${clientName}.",
-		"email-in-use": "Questo nome utente già esiste.",
+		"email-in-use": "Qualcosa non ha funzionato, riprova più tardi. Se possiedi già un account Bitvavo, riceverai un'email.",
 		"invalid-email-format": "L'email non è valida.",
 		"password-too-weak": "Questa password non è abbastanza sicura.",
 		"password-policy-not-conformant": "Questa password non è molto sicura. Considera di cambiarla.",
@@ -1491,8 +1445,7 @@
 		"no-email": "Si prega di inserire un indirizzo email",
 		"no-password": "Inserisci una password.",
 		"no-re-enter-password": "Si prega di reinserire la password.",
-		"no-username": "Inserisci un nome utente.",
-		"logoAltText": "$${companyName}"
+		"no-username": "Inserisci un nome utente."
 	}
 })
 },
@@ -1538,10 +1491,10 @@
 		"pageTitle": "Resetta la tua password $${clientName}",
 		"title": "Cambia la tua password",
 		"description": "Per cambiare la tua password attuale, inserisci due volte una nuova password qui sotto.",
-		"buttonText": "Resetta la password",
+		"buttonText": "Cambia la password",
 		"passwordPlaceholder": "Nuova password",
 		"reEnterpasswordPlaceholder": "Reinserisci la nuova password",
-		"passwordSecurityText": "La contraseña debe tener 8 caracteres o más y debe contener al menos 1 minúscula, 1 mayúscula, 1 carácter especial y un número.",
+		"passwordSecurityText": "Deve contenere almeno:\n- 8 caratteri\n- 1 minuscolo\n- 1 maiuscolo\n- 1 simbolo speciale\n- 1 numero",
 		"logoAltText": "$${companyName}",
 		"auth0-users-expired-ticket": "Questa sessione è scaduta.",
 		"custom-script-error-code": "Qualcosa non ha funzionato, riprova più tardi.",
@@ -1553,7 +1506,7 @@
 		"pageTitle": "Reimpostazione password riuscita $${clientName}",
 		"eventTitle": "Password cambiata",
 		"description": "La tua password è stata cambiata.",
-		"buttonText": "Torna a $${clientName}"
+		"buttonText": "Continua"
 	},
 	"reset-password-error": {
 		"pageTitle": "Errore di reimpostazione della password $${clientName}",
@@ -1574,7 +1527,7 @@
 		"pageTitle": "Resetta la tua password $${clientName}",
 		"title": "Hai dimenticato la password?",
 		"backToLoginLinkText": "Torna al login",
-		"buttonText": "Prosegui",
+		"buttonText": "Continua",
 		"descriptionEmail": "Inserisci l'indirizzo email per ricevere le istruzioni per reimpostare la password.",
 		"descriptionUsername": "Inserisci il nome utente e invieremo le istruzioni per ripristinare la password.",
 		"placeholderEmail": "E-mail",
@@ -1588,13 +1541,12 @@
 		"too-many-email": "Sono state eseguite troppe richieste. Aspetta qualche minuto prima di riprovare.",
 		"too-many-requests": "Sono state eseguite troppe richieste. Aspetta qualche minuto prima di riprovare.",
 		"no-email": "Si prega di inserire un indirizzo email",
-		"no-username": "Inserisci un nome utente.",
-		"logoAltText": "$${companyName}"
+		"no-username": "Inserisci un nome utente."
 	},
 	"reset-password-email": {
 		"pageTitle": "Controlla la tua email $${clientName}",
 		"title": "Controlla la tua email",
-		"emailDescription": "Si prega di controllare la casella $${email} per le istruzioni per ripristinare la password.",
+		"emailDescription": "Controlla la posta in arrivo per le istruzioni per ripristinare la password.",
 		"resendLinkText": "Invia di nuovo",
 		"usernameDescription": "Si prega di controllare la casella email dell'utente $${email} per le istruzioni per ripristinare la password."
 	}

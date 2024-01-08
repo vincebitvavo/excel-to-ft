@@ -1,6 +1,7 @@
 // CONFIG ----------------------------------------------
 
-const sourceFile = "../../downloads/Auth0_ Universal login (frontend) (9).xlsx";
+const sourceFile =
+  "../../downloads/Auth0_ Universal login (frontend) (11).xlsx";
 const outputFile = "./output/result.txt";
 const keysAtColumn = "B";
 const langs = ["EN", "NL", "DE", "FR", "ES", "IT"];
@@ -20,11 +21,11 @@ const sections = [
     endAtCell: "J56",
   },
   {
-    group: "signup-password",
+    group: "signup",
     screen: "",
     sheet: "UL Login and Create",
     startFromCell: "E71",
-    endAtCell: "J112",
+    endAtCell: "J111",
   },
   {
     group: "mfa-otp",
@@ -73,7 +74,7 @@ const sections = [
     screen: "reset-password-request",
     sheet: "Reset PW + 2FA",
     startFromCell: "D100",
-    endAtCell: "I118",
+    endAtCell: "I117",
   },
   {
     group: "reset-password",
